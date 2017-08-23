@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "HQCycleScrollView.h"
 
-@interface ViewController () <HQCycleScrollViewDelegate> {
+@interface ViewController () {
 
     HQCycleScrollView *view;
     
@@ -31,7 +31,7 @@
     
     
     
-    view.delegate = self;
+    
     [self.view addSubview:view];
     
 }
@@ -42,17 +42,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)cycleScrollView:(HQCycleScrollView *)cycleScrollView didSelectedItemAtIndex:(NSInteger)index {
-
-    NSLog(@"点击了index->%ld", index);
-    
-}
-
-
-- (void)cycleScrollView:(HQCycleScrollView *)cycleScrollView didScrollToIndex:(NSInteger)index {
-
-    NSLog(@"滑到了index->%ld", index);
-    
-}
 
 @end
