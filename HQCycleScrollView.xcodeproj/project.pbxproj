@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4181411EB9167E0D484C0CF5 /* libPods-HQCycleScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C429A15FA852ABBB263BBDC /* libPods-HQCycleScrollView.a */; };
 		BB588AF21F4D18F400290AE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AF11F4D18F400290AE2 /* main.m */; };
 		BB588AF51F4D18F400290AE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AF41F4D18F400290AE2 /* AppDelegate.m */; };
 		BB588AF81F4D18F400290AE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588AF71F4D18F400290AE2 /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		BB588B001F4D18F400290AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB588AFE1F4D18F400290AE2 /* LaunchScreen.storyboard */; };
 		BB588B0B1F4D18F500290AE2 /* HQCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588B0A1F4D18F500290AE2 /* HQCycleScrollViewTests.m */; };
 		BB588B161F4D18F500290AE2 /* HQCycleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588B151F4D18F500290AE2 /* HQCycleScrollViewUITests.m */; };
+		BB588B271F4D216600290AE2 /* HQCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588B261F4D216600290AE2 /* HQCycleScrollView.m */; };
+		BB588B2B1F4D301B00290AE2 /* HQCycleScrollViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB588B2A1F4D301B00290AE2 /* HQCycleScrollViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C429A15FA852ABBB263BBDC /* libPods-HQCycleScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HQCycleScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		402510859A67A90DC869FADC /* Pods-HQCycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQCycleScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HQCycleScrollView/Pods-HQCycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
 		BB588AED1F4D18F400290AE2 /* HQCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB588AF11F4D18F400290AE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BB588AF31F4D18F400290AE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,11 @@
 		BB588B111F4D18F500290AE2 /* HQCycleScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQCycleScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB588B151F4D18F500290AE2 /* HQCycleScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQCycleScrollViewUITests.m; sourceTree = "<group>"; };
 		BB588B171F4D18F500290AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB588B251F4D216600290AE2 /* HQCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQCycleScrollView.h; sourceTree = "<group>"; };
+		BB588B261F4D216600290AE2 /* HQCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQCycleScrollView.m; sourceTree = "<group>"; };
+		BB588B291F4D301B00290AE2 /* HQCycleScrollViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQCycleScrollViewCell.h; sourceTree = "<group>"; };
+		BB588B2A1F4D301B00290AE2 /* HQCycleScrollViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQCycleScrollViewCell.m; sourceTree = "<group>"; };
+		D7D7DE29EB3D36E566067B2B /* Pods-HQCycleScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQCycleScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-HQCycleScrollView/Pods-HQCycleScrollView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4181411EB9167E0D484C0CF5 /* libPods-HQCycleScrollView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33AFBA38E2E374B61F9A25CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				402510859A67A90DC869FADC /* Pods-HQCycleScrollView.debug.xcconfig */,
+				D7D7DE29EB3D36E566067B2B /* Pods-HQCycleScrollView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BB588AE41F4D18F400290AE2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +105,8 @@
 				BB588B091F4D18F500290AE2 /* HQCycleScrollViewTests */,
 				BB588B141F4D18F500290AE2 /* HQCycleScrollViewUITests */,
 				BB588AEE1F4D18F400290AE2 /* Products */,
+				33AFBA38E2E374B61F9A25CD /* Pods */,
+				BC8BF0C321D48C0C3D1C94A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +123,7 @@
 		BB588AEF1F4D18F400290AE2 /* HQCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				BB588B231F4D212F00290AE2 /* HQCycleScrollView */,
 				BB588AF31F4D18F400290AE2 /* AppDelegate.h */,
 				BB588AF41F4D18F400290AE2 /* AppDelegate.m */,
 				BB588AF61F4D18F400290AE2 /* ViewController.h */,
@@ -140,6 +163,33 @@
 			path = HQCycleScrollViewUITests;
 			sourceTree = "<group>";
 		};
+		BB588B231F4D212F00290AE2 /* HQCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BB588B241F4D212F00290AE2 /* PageControl */,
+				BB588B251F4D216600290AE2 /* HQCycleScrollView.h */,
+				BB588B261F4D216600290AE2 /* HQCycleScrollView.m */,
+				BB588B291F4D301B00290AE2 /* HQCycleScrollViewCell.h */,
+				BB588B2A1F4D301B00290AE2 /* HQCycleScrollViewCell.m */,
+			);
+			path = HQCycleScrollView;
+			sourceTree = "<group>";
+		};
+		BB588B241F4D212F00290AE2 /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		BC8BF0C321D48C0C3D1C94A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C429A15FA852ABBB263BBDC /* libPods-HQCycleScrollView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB588B1A1F4D18F500290AE2 /* Build configuration list for PBXNativeTarget "HQCycleScrollView" */;
 			buildPhases = (
+				4C1D52525D41BF2E231D2370 /* [CP] Check Pods Manifest.lock */,
 				BB588AE91F4D18F400290AE2 /* Sources */,
 				BB588AEA1F4D18F400290AE2 /* Frameworks */,
 				BB588AEB1F4D18F400290AE2 /* Resources */,
+				0E4D1DF6D8F0F719860A3CAB /* [CP] Embed Pods Frameworks */,
+				D72EB5DD7418713CDE9CC0E3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,12 +324,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E4D1DF6D8F0F719860A3CAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HQCycleScrollView/Pods-HQCycleScrollView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C1D52525D41BF2E231D2370 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D72EB5DD7418713CDE9CC0E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HQCycleScrollView/Pods-HQCycleScrollView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB588AE91F4D18F400290AE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BB588AF81F4D18F400290AE2 /* ViewController.m in Sources */,
+				BB588B2B1F4D301B00290AE2 /* HQCycleScrollViewCell.m in Sources */,
+				BB588B271F4D216600290AE2 /* HQCycleScrollView.m in Sources */,
 				BB588AF51F4D18F400290AE2 /* AppDelegate.m in Sources */,
 				BB588AF21F4D18F400290AE2 /* main.m in Sources */,
 			);
@@ -425,25 +528,39 @@
 		};
 		BB588B1B1F4D18F500290AE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 402510859A67A90DC869FADC /* Pods-HQCycleScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T2Q45F84HW;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+				);
 				INFOPLIST_FILE = HQCycleScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hanqi.HQCycleScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		BB588B1C1F4D18F500290AE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D7DE29EB3D36E566067B2B /* Pods-HQCycleScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T2Q45F84HW;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+				);
 				INFOPLIST_FILE = HQCycleScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hanqi.HQCycleScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
@@ -516,6 +633,7 @@
 				BB588B1C1F4D18F500290AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB588B1D1F4D18F500290AE2 /* Build configuration list for PBXNativeTarget "HQCycleScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +642,7 @@
 				BB588B1F1F4D18F500290AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB588B201F4D18F500290AE2 /* Build configuration list for PBXNativeTarget "HQCycleScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +651,7 @@
 				BB588B221F4D18F500290AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
