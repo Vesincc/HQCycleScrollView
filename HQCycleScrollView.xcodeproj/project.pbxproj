@@ -166,20 +166,12 @@
 		BB588B231F4D212F00290AE2 /* HQCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				BB588B241F4D212F00290AE2 /* PageControl */,
 				BB588B251F4D216600290AE2 /* HQCycleScrollView.h */,
 				BB588B261F4D216600290AE2 /* HQCycleScrollView.m */,
 				BB588B291F4D301B00290AE2 /* HQCycleScrollViewCell.h */,
 				BB588B2A1F4D301B00290AE2 /* HQCycleScrollViewCell.m */,
 			);
 			path = HQCycleScrollView;
-			sourceTree = "<group>";
-		};
-		BB588B241F4D212F00290AE2 /* PageControl */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = PageControl;
 			sourceTree = "<group>";
 		};
 		BC8BF0C321D48C0C3D1C94A4 /* Frameworks */ = {
